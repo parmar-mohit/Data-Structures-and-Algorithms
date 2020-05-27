@@ -1,4 +1,4 @@
-// This Splay tree Deletion Code is written with Top DOwn approach 
+// This Splay tree Deletion Code is written with Top Down approach
 
 #include <iostream>
 

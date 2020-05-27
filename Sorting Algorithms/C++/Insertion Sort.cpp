@@ -46,6 +46,6 @@ void insertionSort( int A[], int N )
             }
         }
 
-        A[j+1] = temp;
+        A[j] = temp;
     }
 }

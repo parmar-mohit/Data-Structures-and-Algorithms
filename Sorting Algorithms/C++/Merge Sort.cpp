@@ -4,7 +4,6 @@ using namespace std;
 
 void mergeSort( int A[], int start, int end );
 void merge( int A[], int start,int mid, int end );
-void swap( int &x, int &y );
 
 int main()
 {
@@ -64,7 +63,8 @@ void merge( int A[], int start,int mid, int end )
 
    int i = 0, j = 0, k = start;
 
-   while(i < nl && j<nr) {
+   while(i < nl && j<nr)
+   {
       if( leftArr[i] <= rightArr[j] )
       {
         A[k] = leftArr[i];
@@ -88,11 +88,4 @@ void merge( int A[], int start,int mid, int end )
         j++;
         k++;
    }
-}
-
-void swap( int &x, int &y )
-{
-    int temp = x;
-    x = y;
-    y = temp;
 }
